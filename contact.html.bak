@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact us</title>
+<link rel="stylesheet" href="contact.css">
+<link rel="icon" type="image/x-icon" href="icon.jpg">
+<style>
+.flex_foot{
+		width: 33.33%px;
+		height: 250px;
+		border: 1px solid black;
+		display: flex;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        
+	}
+	.flex_foot div{
+		
+		flex: 1;
+	}
+	a.social:link,a.social:visited{
+	color: white;
+	}
+a.social:hover{
+	color: yellow;
+	}
+a.social:active{
+	color: blue;
+	}
+	.icons{
+
+	}
+	.flex_add{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	align-self: stretch;
+	
+ }
+ .flex_add div{
+   flex: 1;
+   }
+   .xyz{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	font-size: 20px;
+	background-color: lightgray;
+	padding-top: 80px;
+	padding-left: 30px;
+	padding-bottom: 170px;
+	padding-right: 170px;
+   }
+   .abcd{
+	padding-top: 20px;
+   }
+	
+</style>
+<script src="https://kit.fontawesome.com/0ddae4930f.js" crossorigin="anonymous"></script>
+
+
+</head>
+<body>
+<div class="hero">
+  <nav>
+        <ul class="cl">
+            <h3>
+              <li class="cl" style="background-color: lightgreen;" ><a href="contact.html">Contact Us</a></li>
+              <li class="cl"><a href="aboutus.html">About Us</a></li>
+              <li class="cl"><a href="first.html">Home</a></li>
+              <li class="cl" style="float:left;padding-left: 15px;"><h2 style="color:#0A0A0A;padding-left:10px;padding-top:10px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"> CSV Constructions</h2></li>
+            </h3>
+          </ul>
+    </nav>
+    
+</div><br><br>
+<div class="flex_add" style="margin-left:20px;margin-right:80px;margin-top:3.7%;">
+	
+	
+	<div class="xyz" >
+		<h2>CSV Constructions Pvt. Limited</h2><br><br><br><br>
+		<p><i class="fa-solid fa-location-dot"></i><b> 2nd Floor,Block-5,CSV Hub,</b><br><pre><b>  Gachibowli,Hyderabad-500 032</b></pre></p><br>
+		<p><i class="fa-solid fa-phone"></i><b> +91 9527252462,+91 9435275254</b></p><br>
+		<p><i class="fa-solid fa-envelope"></i><b> sales@csvconstructions.com</b></p>
+	</div>
+	<div style="margin-left: 100px;">
+		<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3806.6333066393922!2d78.37312581479692!3d17.429376788053435!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93fa310a4271%3A0xe02e743e414969bc!2sBiodiversity%20Complex!5e0!3m2!1sen!2sin!4v1658052739590!5m2!1sen!2sin" height="550" width="700" title="address"></iframe>
+		
+	</div>
+	
+
+ </div><br><br>
+ <p style="font-size: 36px;padding-left: 700px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><span style="color: purple;">Our Team</span></p>
+ <div class="abcd">
+<diV class="flex_pro" style="margin-left:20px;margin-right:20px;">
+	<div>
+	 <div  class="cp" style="margin-left:21%;margin-right:21%;" >
+	
+		<div style="padding-top:40%;padding-left:10%;padding-right:10%;">
+			<div style="background-color: lightyellow;color:black;padding:6%;" class="pos">
+				<p align="center" style="padding:6%">Chairperson</p>
+				<hr>
+				<p align="center" style="padding:6%">P.Vedavyas Reddy</p>
+				<p align="center" style="padding:6%">+91 9100689699</p>
+				<p align="center" style="padding:6%">vy6789@gmail.com</p>
+			</div>
+		</div>
+	
+	</div>
+	 
+	 </div>
+	 <div>
+	 <div  class="cp2" style="margin-left:21%;margin-right:21%;" >
+
+			<div style="padding-top:40%;padding-left:10%;padding-right:10%;">
+			<div style="background-color: lightyellow;color:black;padding:6%;" class="pos">
+				<p align="center" style="padding:6%">CEO</p>
+				<hr>
+				<p align="center" style="padding:6%">G.Chakradhar Reddy</p>
+				<p align="center" style="padding:6%">+91 9154723282</p>
+				<p align="center" style="padding:6%">imcreddy9@gmail.com</p>
+				
+			</div>
+		</div>
+	
+	</div>
+	 </div>
+	 
+	 <div>
+	 <div  class="cp3" style="margin-left:21%;margin-right:21%;" >
+	
+		<div style="padding-top:40%;padding-left:10%;padding-right:10%;">
+			<div style="background-color: lightyellow;color:black;padding:6%;" class="pos">
+				<p align="center" style="padding:6%">Managing Director</p>
+				<hr>
+				<p align="center" style="padding:6%">Sujith Agurla</p>
+				<p align="center" style="padding:6%">+91 9443758784</p>
+				<p align="center" style="padding:6%">sujithagurla@gmail.com</p>
+				
+			</div>
+		</div>
+	
+	</div>
+	 </div>
+	 </div>
+	
+	
+	<br><br><br><br>
+	<br><br><br><br></div><br><br>
+<div style="background-color:black;">
+	<div class="flex_foot">
+		<div style="background-color: #d1d1d1;">
+		<p style="padding-left:20%;padding-right:5%;font-size: 25px;padding-top: 10px;" ><b>CSV Constructions</b></p>
+		<p style="padding-left:7%;padding-right:5%;padding-top: 10px;">CSV Group is a leading real estate developer in Hyderabad that strives for quality and perfection to provide
+			you with the most luxurious and affordable residential and commerical projects</p>
+		<div class="icons">
+			<a class="social" href="#mail" ><i class="fa fa-envelope" style="font-size:26px;margin:12px;color: black;padding-left: 105px;"></i></a>
+			<a class="social" href="#instagram" ><i class="fa fa-instagram" style="font-size:30px;margin:10px;color: black;"></i></a>	
+			<a class="social" href="#facebook" ><i class="fa fa-facebook" style="font-size:26px;margin:12px;color: black"></i></a>
+			<a class="social" href="#twitter" ><i class="fa fa-twitter" style="font-size:30px;margin:10px;color: black;"></i></a>
+		 
+		</div>	
+	</div>
+		<div style="background-color:#d1d1d1;">
+		<ul  style="padding-left:30%;padding-top: 30px;">
+			<li><a href="first.html" style="text-decoration:none;color:black;" >Home</a></li><br>
+			<li><a href="aboutus.html" style="text-decoration:none;color:black;" >About Us</a></li><br>
+			<li ><a href="contact.html" style="text-decoration:none;color:black;" >Contact</a></li>
+		</ul>
+		</div>
+		<div style="background-color:#d1d1d1;">
+		<h3 align:center style="padding-left: 125px;padding-top: 10px;"> Contact Us</h3>
+		<p style="padding-right:3%;padding-top:10px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><b>Corporate Office:</b>CSV Constructions Pvt. Limited,<br>2nd Floor,Block-5,CSV Hub,<br>Gachibowli,Hyderabad-500 032.</p>
+		<h3 align:center style="padding-left: 125px;padding-top :5px;" >Phone </h3>
+		<p align:center;style="line-height:1;" > +91 9527252462,
+		+91 9435275254</p>
+		
+		<h3 align:center  style="padding-left: 125px;padding-top: 10px;">Email </h3>
+		<p align:center;style="line-height:1;margin-top:10px;" > sales@csvconstructions.com</p>
+		</div>
+	</div>
+		<div style="margin-left:41.5%;">
+		<p style="font-size:15px;color:white;padding-bottom:14px;padding-top:10px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Copyright © 2022-CSV Constructions. All Rights Reserved</p>
+	
+		</div>
+	
+	
+	</div>
+	</body>
+	</html>
+	

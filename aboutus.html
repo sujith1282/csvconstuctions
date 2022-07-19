@@ -1,0 +1,420 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+ <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>CSV Constructions</title>
+  <link rel="icon" type="image/x-icon" href="icon.jpg">
+<style>
+	body{
+	}
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    ul.cl{
+    list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+    background-color: aliceblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	position: fixed;
+	top: 0%;
+	width: 100%;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+
+}
+li.cl{
+	float: right;
+  }
+li.cl a{
+    display: block;
+	color: black;
+	text-align: center;
+	padding: 15px 17px;
+	text-decoration: none;
+	}
+li.cl a:hover{
+	background-color: gold;
+	}
+    nav {
+    position: relative;
+    top: 0;
+  }
+  .icons{
+        }
+        .op{
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #f3f2f1;
+    }
+    .flex_ongoing{
+		align-items: flex-start;
+		align-self: stretch;
+		display: flex;
+	}
+    .flex_ongoing div{
+		flex: 1;
+	}
+	#imgdiv{
+		flex: 0 1 500px;
+		}
+	
+	.cp1{
+	background-image: url("backgroundimage1.jpg");
+	background-size: 100% 100%;
+	opacity: 1;
+}
+	.cp2{
+	background-image: url("https://www.greencindia.co.in/wp-content/uploads/2020/08/industrial.jpg");
+	background-size: 100% 100%;
+	opacity: 1;
+}
+	.cp3{
+	background-image: url("https://mlcynqtblhhi.i.optimole.com/J0Mqbx4-VZVctG55/w:auto/h:auto/q:auto/https://i0.wp.com/aplosgroup.com/wp-content/uploads/2019/09/GlassOffice_2000-e1568174061937.jpeg?ssl=1");
+	background-size: 100% 100%;
+	opacity: 1;
+}
+
+.flex_foot{
+		width: 33.33%px;
+		height: 250px;
+		border: 1px solid black;
+		display: flex;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 20px;
+        
+	}
+	.flex_foot div{
+		
+		flex: 1;
+	}
+	a.social:link,a.social:visited{
+	color: white;
+	}
+a.social:hover{
+	color: yellow;
+	}
+a.social:active{
+	color: blue;
+	}
+
+.head{
+	text-align:center;
+	font-family: sans-serif;
+	font-size: 40px;
+}
+.ceo{
+	display: flex; 
+	flex-direction: row;
+	align-items: flex-start;
+	margin-bottom:10px;
+}
+.image{
+	width: 280px;
+	margin-right: 20px;
+	height: 280px;
+	margin-top: 20px;
+}
+.bg-container{
+	display: flex; 
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 20px;
+}
+.para{
+	font-family: sans-serif;
+	font-size: 24px;
+	align-self: stretch;
+	margin-top:28px;
+}
+.profile{
+	display: flex; 
+	flex-direction: column;
+	align-items: center;
+}
+.manager{
+	display: flex; 
+	flex-direction: column;
+	margin-top: 10px;
+	align-items: center;
+}
+
+.director{
+	display: flex; 
+	flex-direction: row;
+	align-items: flex-start;
+	margin-bottom:10px;
+	margin-left: 20px;
+}
+
+.images{
+	width: 280px;
+	margin-right: 30px;
+	height: 280px;
+	margin-top: 10px;
+}
+.award{
+	display: flex; 
+	flex-direction: row;
+	justify-content: center;
+}
+.certif{
+	display: flex; 
+	flex-direction: column;
+	margin-top: 10px;
+}
+.directorname{
+	color: black; 
+	font-size:25px;
+	font-weight: 300;
+	margin-top: 10px;
+}
+.awards1{
+	background-color: lightgray;
+}
+
+
+
+</style>
+<script src="https://kit.fontawesome.com/0ddae4930f.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css">
+   
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <nav>
+        <ul class="cl">
+            <h3>
+              <li class="cl" ><a href="contact.html">Contact Us</a></li>
+              <li class="cl" style="background-color: lightgreen;"><a href="aboutus.html">About Us</a></li>
+              <li class="cl"><a href="index.html">Home</a></li>
+              <li class="cl" style="float:left;padding-left: 15px;"><h2 style="color:#0A0A0A;padding-left:10px;padding-top:10px;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif"> CSV Constructions</h2></li>
+            </h3>
+          </ul>
+    </nav>
+    <div class="op" style="padding-bottom:4%;background-color: lightgray;margin-top: 3.7%;">
+        <div style="background-color:lightgray;">
+        <p style="color:purple;font-size: 35px;padding-left:35px;text-align: left;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding-top:2%;">CSV Constructions:</p>
+        <div class="flex_ongoing">
+            <div id="imgdiv">
+                <img style="height:460px;width:430px;margin-left:8%;margin-top:5%;padding-bottom:5%;" align="center" src="https://englishclassviaskype.com/wp-content/uploads/2014/09/glass-building.jpg" alt="alternative" >
+            </div>
+            <div>
+            <p style="padding-top:5%;padding-left:2%;font-size: 25px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">CSV Constructions is one of the leading firms of Hyderabad which is famous for its works in designing and constructions.
+                The success story of CSV Constructions is built on the foundation of quality, integrity, innovation and matchless customer service. 
+               Established in 2005 and headquartered in Hyderabad, our projects expand all across India.
+               We strive for perfection and excellence and value the requirements of the customers.
+               Our constant endeavor is always to provide the best for our customers. 
+               In the last one decade, CSV Constructions has built many luxury projects that include Premium Villas and Hi-Rise Apartments which today bear a proud testimony to our
+                efforts and are landmark structures
+                in their respective environments.
+                A classic trademark of all CSV Constructions projects are its careful thought in providing ample greenery, modern designs that are luxurious, offer 
+               good spaces and thoughtful amenities to the customers and give them a good return on their investments. It is no wonder that all
+                CSV Constructions projects command a premium value.
+           </p>
+            </div>
+        </div>
+        </div>
+        </div>
+        </div>
+
+
+<br><br>	
+
+<div>
+<h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;text-align:center;color: purple;">Completed Projects</h1><br>
+<h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;margin:20px;">Project 1</h1>
+ <div  class="cp1" style="margin-left:20px;margin-right:20px;" >
+
+	<div style="color:white;padding-top:15%;padding-left:17%;padding-bottom:15%;padding-right:63%;">
+		<div style="background-color:white;color:black;padding:3%;padding-bottom:4%;">
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;">Construction 1</p>
+			<hr>
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;"><i class="fa-solid fa-location-dot"></i> Jubliee Hills,Hyderabad</p>
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;"><i class="fa-solid fa-bed"></i>  2 BHK, 2BHK+Study, 3BHK</p>
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;">Starts from 1800-2400 sq.ft</p>
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;">Bookings Open</p>
+		</div>
+	</div>
+
+</div>
+ </div>
+ 
+ <br><br><br>
+ <div>
+ <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;margin:20px;">Project 2</h1>
+ <div  class="cp2" style="margin-left:20px;margin-right:20px;" >
+
+	<div style="color:white;padding-top:15%;padding-left:17%;padding-bottom:15%;padding-right:63%;">
+		<div style="background-color: white;color:black;padding:3%;padding-bottom:4%;">
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;">Construction 2</p>
+			<hr>
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;"><i class="fa-solid fa-location-dot"></i> Shamshabad,Hyderabad</p>
+		</div>
+	</div>
+
+</div>
+ </div>
+ 
+<br><br><br>	
+<div>
+<h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;margin:20px;">Project 3</h1>
+ <div  class="cp3" style="margin-left:20px;margin-right:20px;" >
+
+	<div style="color:white;padding-top:15%;padding-left:17%;padding-bottom:15%;padding-right:63%;">
+		<div style="background-color:white;color:black;padding:3%;padding-bottom:4%;">
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;">Construction 3</p>
+			<hr>
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;"><i class="fa-solid fa-location-dot"></i> Gachibowli,Hyderabad</p>
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;">Starts from 2600-3000 sq.ft</p>
+			<p align="center" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;padding:4%;">Bookings Open</p>
+		</div>
+	</div>
+
+</div>
+ </div>
+<br><hr style="margin-left:40px;margin-right:20px"><br>
+<p style="font-size: 36px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: purple;padding-left: 650px;"><b>Amenities</b></p><br>
+<div class="icons">
+    <i class='bx bxs-cctv' style="font-size:50px;padding-left:430px;color: black;"></i>
+    <i class='bx bx-dumbbell' style="font-size:50px;padding-left:165px;color: black;"></i>
+    <i class='bx bx-swim' style="font-size:50px;padding-left:167px;color: black;"></i>
+    <span class="material-symbols-outlined" style=" font-size:50px;padding-left:170px;color: black;">
+        self_improvement
+        </span><br><br><br>
+          <span class="material-symbols-outlined" style="font-size:50px;padding-left:430px;color: black;">
+                roller_skating
+                </span>
+                <span class="material-symbols-outlined" style="font-size:50px;padding-left:165px;color: black;">
+                    outdoor_garden
+                    </span>
+                    <span class="material-symbols-outlined" style="font-size:50px;padding-left:167px;color: black;">
+                        directions_bike
+                        </span>
+                        <span class="material-symbols-outlined" style="font-size:50px;padding-left:170px;color: black;">
+                            spa
+                            </span><br><br>
+                            <span class="material-symbols-outlined" style="font-size:50px;padding-left:430px;color: black;">
+                                local_dining
+                                </span>
+                                <span class="material-symbols-outlined" style="font-size:50px;padding-left:165px;color: black;">
+                                    sports_cricket
+                                    </span>
+                                    <span class="material-symbols-outlined" style="font-size:50px;padding-left:167px;color: black;">
+                                        sports_basketball
+                                        </span>
+                                        <span class="material-symbols-outlined" style="font-size:50px;padding-left:170px;color: black;">
+                                            local_gas_station
+                                        </span><br><br><br>
+                                        <span class="material-symbols-outlined" style="font-size:50px;padding-left:430px;color: black;">
+                                            solar_power
+                                            </span>
+                                            <span class="material-symbols-outlined" style="font-size:50px;padding-left:165px;color: black;">
+                                                wifi
+                                            </span>
+                                            <span class="material-symbols-outlined" style="font-size:50px;padding-left:167px;color: black;">
+                                                signal_cellular_4_bar
+                                                </span>
+                                                <span class="material-symbols-outlined" style="font-size:50px;padding-left:167px;color: black;">
+                                                    ev_station
+                                                    </span>
+    </div>
+ 
+ <br><br>
+
+<div class=awards1><hr style="margin-left:20px;margin-right:20px"><br>
+	<p style="font-size: 36px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: purple;padding-left: 650px;"><b>Awards</b></p><br>
+	<div class="award">
+		<div class="certif">
+			<img class="images" src="https://cdn-fbefh.nitrocdn.com/NAHITZdjjfPOyLQboMNEuDvSHKYdVTqo/assets/static/optimized/rev-975416c/wp-content/uploads/2022/03/12.webp" alt="reload">
+		</div>
+		<div class="certif">
+			<img class="images" src="https://www.bridgeroof.co.in/Upload/Awards_Accolades//44265-2022-May-31-12-7-11.jpg" alt="reload">
+		</div>
+		<div class="certif">
+			<img class="images" src="http://www.rajgroupvapi.com/awards_recognition/crisil_rating_certificate.jpg" alt="reload">
+		</div>
+	</div><br><hr>
+</div>
+<div class="bg-container">
+	<p style="font-size: 36px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: purple;padding-left: 10bpx;"><b>Chairman's Message</b></p><br>
+	<div class="ceo">
+		<div class="profile">
+			<img class="image" src="https://i.postimg.cc/bvP0dMYV/me.jpg" alt="reload">
+			<a class="directorname">P.Vedavyas Reddy</a>
+		</div>
+		<p class="para">Seventeen years since its inception, The CSV group has laid a strong foundation in the real estate development sector. Our sheer determination to adopt the best technological and sustainable practices, has put us in the fore front in the South Indian real estate market. We strive to aim for perfection, by meeting affordability and luxury to enhance customer satisfaction.<br><br>
+		The CSV group is led by experienced and energetic managers and technicians, focusing on the company’s core competencies. Together with our joint venture partners and associates, we have developed millions of square feet of quality real estate. Our unwavering commitment to improvement and innovation continues in the form of several signature projects currently underway.
+		</p>
+	</div><br>
+	<p style="font-size: 36px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;color: purple;padding-left: 10bpx;"><b>Management</b></p><br>
+	
+	<div class="director">
+		<div class="manager">
+			<img class="images" src="https://i.postimg.cc/PJ4dMgbV/chakri.jpg" alt="reload">
+			<a class="directorname">G.Chakradhar Reddy</a>
+			<p style="color: darkblue; font-size:20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">CEO</p>
+		</div>
+		<div class="manager">
+			<img class="images" src="https://i.postimg.cc/Cx05TVx1/20881-A0563.jpg" alt="reload">
+			<a class="manager">A.Sujith</a>
+			<p style="color: darkblue; font-size:20px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Managing Director</p>
+		</div>
+	</div>
+</div>
+
+
+<br><br>
+
+
+<div style="background-color:black;">
+	<div class="flex_foot">
+		<div style="background-color: #d1d1d1;">
+		<p style="padding-left:20%;padding-right:5%;font-size: 25px;padding-top: 10px;" ><b>CSV Constructions</b></p>
+		<p style="padding-left:7%;padding-right:5%;padding-top: 10px;">CSV Group is a leading real estate developer in Hyderabad that strives for quality and perfection to provide
+			you with the most luxurious and affordable residential and commerical projects</p>
+		<div class="icons">
+			<a class="social" href="#mail" ><i class="fa fa-envelope" style="font-size:26px;margin:12px;padding-left:75px;color: black;padding-left: 105px;"></i></a>
+			<a class="social" href="#instagram" ><i class="fa fa-instagram" style="font-size:30px;margin:10px;color: black;"></i></a>	
+			<a class="social" href="#facebook" ><i class="fa fa-facebook" style="font-size:26px;margin:12px;color: black;"></i></a>
+			<a class="social" href="#twitter" ><i class="fa fa-twitter" style="font-size:30px;margin:10px;color: black;"></i></a>
+		 
+		</div>	
+	</div>
+		<div style="background-color:#d1d1d1;">
+		<ul  style="padding-left:30%;padding-top: 30px;">
+			<li><a href="first.html" style="text-decoration:none;color:black;" >Home</a></li><br>
+			<li><a href="aboutus.html" style="text-decoration:none;color:black;" >About Us</a></li><br>
+			<li ><a href="contact.html" style="text-decoration:none;color:black;" >Contact Us</a></li>
+		</ul>
+		</div>
+		<div style="background-color:#d1d1d1;">
+		<h3 align:center style="padding-left: 125px;padding-top: 10px;"> Contact Us</h3>
+		<p style="padding-right:3%;padding-top:10px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;"><b>Corporate Office:</b>CSV Constructions Pvt. Limited,<br>2nd Floor,Block-5,CSV Hub,<br>Gachibowli,Hyderabad-500 032.</p>
+		<h3 align:center style="padding-left: 125px;padding-top :5px;" >Phone </h3>
+		<p align:center;style="line-height:1;" > +91 9527252462,
+		+91 9435275254</p>
+		
+		<h3 align:center  style="padding-left: 125px;padding-top: 10px;">Email </h3>
+		<p align:center;style="line-height:1;margin-top:10px;" > sales@csvconstructions.com</p>
+		</div>
+	</div>
+		<div style="margin-left:41.5%;">
+		<p style="font-size:15px;color:white;padding-bottom:14px;padding-top:10px;font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">Copyright © 2022-CSV Constructions. All Rights Reserved</p>
+	
+		</div>
+	
+	
+	</div>
+	</body>
+	</html>
